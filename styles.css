@@ -1,0 +1,44 @@
+body {
+    background-color: mediumpurple;
+}
+
+ul {
+    list-style-type: none;
+    padding: 5;
+    overflow: hidden;
+    /* background-color: black */
+}
+
+li {
+    display:inline-block;
+    padding: 10px;
+    border: #000000 solid;
+    border-radius: 10px
+}
+
+/* li a {
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+    color:cyan
+} */
+
+/* .flex-parent {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center
+} */
+
+/* FOR GAME ICONS */
+.img-contain {
+    object-fit: cover;
+    object-position: top;
+    border-radius: 15px;
+}
+
+/* - - size of the box - - */
+/* .box{
+    
+    width: 250px;
+    height: 250px;
+} */
