@@ -4,7 +4,6 @@ body {
 
 ul {
     list-style-type: none;
-    padding: 5;
     overflow: hidden;
     /* background-color: black */
 }
@@ -12,33 +11,55 @@ ul {
 li {
     display:inline-block;
     padding: 10px;
-    border: #000000 solid;
-    border-radius: 10px
+    border: #333 solid;
+    border-radius: 10px;
+    margin: 5px;
+    vertical-align: top;
 }
-
-/* li a {
-    display: block;
-    padding: 14px 16px;
-    text-align: center;
-    color:cyan
-} */
-
-/* .flex-parent {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center
-} */
 
 /* FOR GAME ICONS */
 .img-contain {
+    display: block;
     object-fit: cover;
     object-position: top;
     border-radius: 15px;
+    padding: 2px;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+li:hover {
+    background-color: gray;
+}
+
+li:hover .p {
+    background-color: white;
 }
 
 /* - - size of the box - - */
 /* .box{
-    
     width: 250px;
     height: 250px;
 } */
+
+a {
+    color: black;
+    text-decoration: none;
+    display: table-cell;
+}
+
+p {
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 12px;
+    border-style: double;
+    width: 140px;
+    height: 27px;
+    padding: 5px;
+    display: table-cell;
+    margin: 5px;
+    vertical-align: middle;
+    background-color: white;
+}
