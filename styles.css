@@ -15,6 +15,7 @@ li {
     border-radius: 10px;
     margin: 5px;
     vertical-align: top;
+    transition: 0.75s;
 }
 
 /* FOR GAME ICONS */
@@ -30,12 +31,12 @@ li {
 }
 
 li:hover {
-    background-color: gray;
+    background-color: #ec94a7;
 }
 
-li:hover .p {
+/* li:hover .p {
     background-color: white;
-}
+} */
 
 /* - - size of the box - - */
 /* .box{
