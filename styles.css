@@ -14,7 +14,7 @@ hr {
 
 /* FOR THE MAIN PAGE */
 /* ----------------- */
-ul.categoryContainer {
+.categoryContainer {
     list-style-type: none;
     overflow: hidden;
     margin-top: 75px;
@@ -92,7 +92,7 @@ li.gameEntry:hover .dialog {
 
 /* FOR EACH CATEGORY PAGE */
 /* ---------------------- */
-ul.vidSelector {
+#vidSelector {
     margin-left: 50px;
     margin-top: 75px;
 }
@@ -123,3 +123,43 @@ li.vod:hover {
     text-align: center;
 }
 /* ---------------------- */
+
+#header {
+    background-color: red;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#header p {
+    margin: 0;
+}
+
+#header .headerTitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 35px;
+    margin-top: 25px;
+    position: relative;
+}
+
+#header .headerDate {
+    font-size: 14px;
+    margin: 7px 0px 25px 35px;
+    position: relative;
+    padding-top: -20px;
+}
+
+#vidContainer {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
+
+iframe {
+    height: 100%;
+    width: 100%;
+    /* display: block; */
+}

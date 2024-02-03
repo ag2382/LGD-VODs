@@ -2,20 +2,22 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="../styles.css">
+    <title>Super Mario RPG</title>
+    <meta charset = "UTF-8">
+
     <h2> Super Mario RPG </h2>
     <hr>
 </head>
 <body>
-    <ul class = "vidSelector">
+    <ul id = "vidSelector">
         <!-- PART 1 -->
         <li class = "vod">
+            <!-- https://youtu.be/5Fw0KYJRRzc -->
             <a href = "https://youtu.be/5Fw0KYJRRzc">
                 <div class = "vidDuration">
                     3:46:19
                 </div>
-                <div class = "container">
-                    <img src = "https://i.ytimg.com/vi/5Fw0KYJRRzc/mq1.jpg">
-                </div>
+                <img src = "https://i.ytimg.com/vi/5Fw0KYJRRzc/mq3.jpg">
             </a>
         </li>
         <!-- PART 2 -->
@@ -24,9 +26,7 @@
                 <div class = "vidDuration">
                     2:01:42
                 </div>
-                <div class = "container">
-                    <img src = "https://i.ytimg.com/vi/nDp71u2ro54/mqdefault.jpg">
-                </div>
+                <img src = "https://i.ytimg.com/vi/nDp71u2ro54/mqdefault.jpg">
             </a>
         </li>
         <!-- PART 3 -->
@@ -35,9 +35,7 @@
                 <div class = "vidDuration">
                     2:23:25
                 </div>
-                <div class = "container">
-                    <img src = "https://i.ytimg.com/vi_webp/Gjg-2DD-AmY/mqdefault.webp">
-                </div>
+                <img src = "https://i.ytimg.com/vi_webp/Gjg-2DD-AmY/mqdefault.webp">
             </a>
         </li>
         <!-- PART 4 -->
@@ -46,9 +44,7 @@
                 <div class = "vidDuration">
                     3:58:24
                 </div>
-                <div class = "container">
-                    <img src = "https://i.ytimg.com/vi/l0CCNlikHYE/mqdefault.jpg">
-                </div>
+                <img src = "https://i.ytimg.com/vi/l0CCNlikHYE/mqdefault.jpg">
             </a>
         </li>
         <!-- PART 5 -->
@@ -57,22 +53,48 @@
                 <div class = "vidDuration">
                     2:32:58
                 </div>
-                <div class = "container">
-                    <img src = "https://i.ytimg.com/vi/weKQNqV8uq4/mqdefault.jpg">
-                </div>
+                <img src = "https://i.ytimg.com/vi/weKQNqV8uq4/mqdefault.jpg">
             </a>
         </li>
-        <!-- PART 5 -->
+        <!-- PART 6 -->
         <li class = "vod">
             <a href = "https://youtu.be/xPSl-irgpU0">
                 <div class = "vidDuration">
                     3:12:20
                 </div>
-                <div class = "container">
-                    <img src = "https://i.ytimg.com/vi/xPSl-irgpU0/mqdefault.jpg">
+                <img src = "https://i.ytimg.com/vi/xPSl-irgpU0/mqdefault.jpg">
+            </a>
+        </li>
+        <!-- PART 7 -->
+        <li class = "vod">
+            <a href = "https://youtu.be/NLpO5Am6ao8">
+                <div class = "vidDuration">
+                    2:46:54
                 </div>
+                <img src = "https://i.ytimg.com/vi/NLpO5Am6ao8/mqdefault.jpg">
+            </a>
+        </li>
+        <!-- PART 8 -->
+        <li class = "vod">
+            <a href = "https://youtu.be/KkSOVudSyJU">
+                <div class = "vidDuration">
+                    2:46:54
+                </div>
+                <img src = "https://i.ytimg.com/vi/KkSOVudSyJU/mqdefault.jpg">
             </a>
         </li>
     </ul>
 </body>
+
+<script>
+// SELECTING A VIDEO TRIGGERS AN EVENT //
+/*var ul = document.getElementById('vidSelector');
+ul.onclick = function(event)
+{
+    var target = event.target;
+    alert("Video has been selected");
+}*/
+
+</script>
+
 </html>
