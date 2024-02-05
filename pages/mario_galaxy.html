@@ -1,17 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="../styles.css">
+  <head>
     <title>Super Mario Galaxy</title>
-    <meta charset = "UTF-8">
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="../layout.css" />
 
-    <h2> Super Mario RPG </h2>
-    <hr>
-</head>
-<body>
-    <p>
-        Sorry, there are no videos for this specific category.
-        Drew has not touched this game yet, maybe down the line.
-    </p>
-</body>
+    <header>
+      <h1>Super Mario Galaxy</h1>
+      <h2 id="vidCount"></h2>
+      <div style="clear: both"></div>
+    </header>
+    <hr />
+  </head>
+  <body>
+    <ul id="vidSelector">
+      <!-- PART 1 -->
+      <li class="vod">
+        <!-- https://youtu.be/5Fw0KYJRRzc -->
+        <a href="https://youtu.be/A9pUUnAsMuQ">
+          <div class="vidDuration">3:38:20</div>
+          <img src="https://i.ytimg.com/vi/A9pUUnAsMuQ/mq3.jpg" />
+        </a>
+      </li>
+    </ul>
+    <script src="../scripts/common.js" onload="getVidCount()"></script>
+  </body>
 </html>

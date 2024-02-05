@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="../styles.css">
+  <head>
     <title>KINGDOM HEARTS II</title>
-    <meta charset = "UTF-8">
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="../layout.css" />
 
-    <h2> KINGDOM HEARTS II </h2>
-    <hr>
-</head>
-<body>
-    <p>
-        Sorry, there are no videos for this specific category.
-        Drew has not touched this game yet, maybe down the line.
+    <header>
+      <h1>KINGDOM HEARTS II</h1>
+      <h2 id="vidCount"></h2>
+      <div style="clear: both"></div>
+    </header>
+    <hr />
+  </head>
+  <body>
+    <p class = "none">
+      Sorry, there are no videos for this specific category. Drew has not
+      touched this game yet, maybe down the line.
     </p>
-</body>
+    <script src="../scripts/common.js" onload="getVidCount()"></script>
+  </body>
 </html>
