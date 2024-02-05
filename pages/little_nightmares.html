@@ -1,49 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <link rel="stylesheet" href="../styles.css">
+  <head>
     <title>Little Nightmares</title>
-    <meta charset = "UTF-8">
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="../layout.css" />
+    
+    <header>
+      <h1>Little Nightmares</h1>
+      <h2 id="vidCount"></h2>
+      <div style="clear: both"></div>
+    </header>
+    <hr />
+  </head>
 
-    <h2> Little Nightmares </h2>
-    <hr>
-</head>
+  <body>
 
-<body>
-
-    <!-- <div class="container">        
-        <img src = "https://i.ytimg.com/vi/CkNfaSr217o/mqdefault.jpg" width="320" height="180">
-        <img src = "https://i.ytimg.com/vi/KmMZ6745ytM/mqdefault.jpg" width="320" height="180">
-        <img src = "https://i.ytimg.com/vi_webp/Gu4wATHaoh4/mq3.webp" width="320" height="180">
-    <div> -->
-
-    <ul id = "vidSelector">
-        <li class = "vod">
-            <a href = "https://youtu.be/CkNfaSr217o">
-                <div class = "vidDuration">
-                    3:02:10
-                </div>
-                <img src = "https://i.ytimg.com/vi/CkNfaSr217o/mqdefault.jpg">
-            </a>
-        </li>
-        <li class = "vod">
-            <a href = "https://youtu.be/KmMZ6745ytM">
-                <div class = "vidDuration">
-                    3:07:30
-                </div>
-                <img src = "https://i.ytimg.com/vi/KmMZ6745ytM/mqdefault.jpg">
-            </a>
-        </li>
-        <li class = "vod">
-            <a href = "https://youtu.be/Gu4wATHaoh4">
-                <div class = "vidDuration">
-                    1:37:17
-                </div>
-                <img src = "https://i.ytimg.com/vi_webp/Gu4wATHaoh4/mq3.webp">
-            </a>
-        </li>
+    <ul id="vidSelector">
+      <li class="vod">
+        <a href="https://youtu.be/CkNfaSr217o">
+          <div class="vidDuration">3:02:10</div>
+          <img src="https://i.ytimg.com/vi/CkNfaSr217o/mqdefault.jpg" />
+        </a>
+      </li>
+      <li class="vod">
+        <a href="https://youtu.be/KmMZ6745ytM">
+          <div class="vidDuration">3:07:30</div>
+          <img src="https://i.ytimg.com/vi/KmMZ6745ytM/mqdefault.jpg" />
+        </a>
+      </li>
+      <li class="vod">
+        <a href="https://youtu.be/Gu4wATHaoh4">
+          <div class="vidDuration">1:37:17</div>
+          <img src="https://i.ytimg.com/vi_webp/Gu4wATHaoh4/mq3.webp" />
+        </a>
+      </li>
     </ul>
-</body>
 
+    <script src="../scripts/common.js" onload="getVidCount()"></script>
+  </body>
 </html>
