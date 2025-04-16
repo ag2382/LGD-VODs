@@ -1,3 +1,11 @@
+// LIGHT AND DARK MODE TOGGLE
+
+function themeToggle()
+{
+  document.body.classList.toggle("dark-mode");
+}
+
+// GET THE CURRENT TIME AND DISPLAY IT ON THE WEBSITE
 function getTimeAMPM()
     {
       var date = new Date();
@@ -23,3 +31,9 @@ function getVidCount()
     var str = "Videos (" + c + ")";
     document.getElementById("vidCount").innerHTML = str;
 }
+
+// TEST //
+
+// function myFunction() {
+//   let element = document.body;
+// }

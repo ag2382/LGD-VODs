@@ -1,42 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Drew's Legendary VOD Archive</title>
+  <title>Categories - LGD VODs</title>
   <meta charset="UTF-8" />
   <link rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" href="layout.css" />
-
-  <!-- NAVBAR -->
-
-  <!-- MAKE HEADER CONSISTING OF WEBSITE TITLE AND CLOCK -->
-  <!-- <h2>Drew's Legendary VOD Archive</h2> -->
-
-  <!-- Categories and clock are on the same line -->
-  <header>
-    <h1>Categories</h1>
-    <h2 id = "currTime" onload = "getTimeAMPM()"></h2>
-    <div style="clear: both"></div>
-  </header>
-
-  <!-- <a class = "logo" href="https://www.twitch.tv/drew_lgd">
-      <img src = "twitch_logo.png" width="50" height="50" style="position:absolute">
-  </a> -->
-  <hr />
 </head>
 
 <body>
-  <script src="scripts/common.js" onload = "getTimeAMPM()"></script>
-  <!-- ORGANIZE GAMES BY CATEGORY -->
+  <div class = "background">
+    <!-- Categories and clock are on the same line -->
+    <header>
+      <h1>Categories</h1>
+      <h2 id = "currTime" onload = "getTimeAMPM()"></h2>
+      <div style="clear: both"></div>
+    </header>
+    <hr>
+
+    <!-- ORGANIZE GAMES BY CATEGORY -->
   <!-- New categories are added as list items to an unordered list -->
   <ul class="categoryContainer">
     <li class="gameEntry">
+      <div class="dialog">
+        <p class="title">Astro Bot</p>
+      </div>
+      <a href="pages/astro_bot.html">
+        <img src="boxart/icon_astro_bot.jpg" width="200px" height="200px" />
+      </a>
+    </li>
+    <li class="gameEntry">
+      <div class="dialog">
+        <p class="title">Emily Wants To Play</p>
+      </div>
+      <a href="pages/emily_wtp.html">
+        <img src="boxart/icon_emily_wtp.jpg" width="200px" height="200px" />
+      </a>
+    </li>
+    <li class="gameEntry">
+      <div class="dialog">
+        <p class="title">Five Nights at Freddy's: Sister Location</p>
+      </div>
+      <a href="pages/FNAF_5.html">
+        <img src="boxart/icon_fnaf5.png" width="200px" height="200px" />
+      </a>
+    </li>
+    <!-- <li class="gameEntry">
       <div class="dialog">
         <p class="title">KINGDOM HEARTS II</p>
       </div>
       <a href="pages/KH2.html">
         <img src="boxart/icon_KH2.jpg" width="200px" height="200px" />
       </a>
-    </li>
+    </li> -->
     <li class="gameEntry">
       <div class="dialog">
         <p class="title">Little Nightmares</p>
@@ -45,12 +60,60 @@
         <img src="boxart/icon_little_nightmares.png" width="200px" height="200px" />
       </a>
     </li>
-    <li class = "gameEntry">
+    <li class="gameEntry">
+      <div class="dialog">
+        <p class="title">Luigi's Mansion</p>
+      </div>
+      <a href="pages/luigis_mansion.html">
+        <img src="boxart/icon_luigi_mansion.jpg" width="200px" height="200px" />
+      </a>
+    </li>
+    <li class="gameEntry">
+      <div class="dialog">
+        <p class="title">Magical Pop'n</p>
+      </div>
+      <a href="pages/little_nightmares.html">
+        <img src="boxart/icon_magical_popn.jpg" width="200px" height="200px" />
+      </a>
+    </li>
+    <li class="gameEntry">
+      <div class="dialog">
+        <p class="title">Mario & Luigi: Brothership</p>
+      </div>
+      <a href="pages/m&l_brothership.html">
+        <img src="boxart/icon_brothership.jpg" width="200px" height="200px" />
+      </a>
+    </li>
+    <li class="gameEntry">
+      <div class="dialog">
+        <p class="title">Mouthwashing</p>
+      </div>
+      <a href="pages/mouthwashing.html">
+        <img src="boxart/icon_mouthwashing.jpg" width="200px" height="200px" />
+      </a>
+    </li>
+    <!-- <li class = "gameEntry">
       <div class = "dialog">
           <p class = "title">NieR:Automata</p>
       </div>
       <a href="pages/nier_automata.html">
           <img src = "boxart/icon_nier_automata.png" width = 200px height = 200px>
+      </a>
+    </li> -->
+    <li class="gameEntry">
+      <div class="dialog">
+        <p class="title">PAC-MAN WORLD Re-PAC</p>
+      </div>
+      <a href="pages/persona3r.html">
+        <img src="boxart/icon_pacman_world_repac.jpg" width="200px" height="200px" />
+      </a>
+    </li>
+    <li class="gameEntry">
+      <div class="dialog">
+        <p class="title">Persona 3 Reload</p>
+      </div>
+      <a href="pages/persona3r.html">
+        <img src="boxart/icon_persona3r.png" width="200px" height="200px" />
       </a>
     </li>
     <li class="gameEntry">
@@ -81,10 +144,31 @@
         <img src="boxart/icon_mario_rpg.jpeg" width="200px" height="200px" />
       </a>
     </li>
+    <li class="gameEntry">
+      <div class="dialog">
+        <p class="title">Super Mario Sunshine</p>
+      </div>
+      <a href="pages/mario_sunshine.html">
+        <img src="boxart/icon_mario_sunshine.jpg" width="200px" height="200px" />
+      </a>
+    </li>
+    <li class="gameEntry">
+      <div class="dialog">
+        <p class="title">Other Streams</p>
+      </div>
+      <a href="pages/others.html">
+        <img src="boxart/icon_placeholder.jpg" width="200px" height="200px" />
+      </a>
+    </li>
   </ul>
 
   <!-- ADD BUTTON TO TOGGLE LIGHT + DARK MODE -->
-  <!-- <button class = "button">Button</button> -->
+  <button class = "button" onclick="themeToggle()">TOGGLE</button>
+  </div>
+
+  <!-- <p id = demo></p> -->
+
+  <script src="scripts/common.js" onload = "getTimeAMPM()"></script>
 
 </body>
 </html>

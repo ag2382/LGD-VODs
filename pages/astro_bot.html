@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Astro Bot - LGD VODs</title>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="../styles.css" />
+        <link rel="stylesheet" href="../layout.css" />
+    </head>
+    <body>
+        <div class = "background">
+          <header>
+            <h1>Astro Bot</h1>
+            <h2 id="vidCount"></h2>
+            <div style="clear: both"></div>
+          </header>
+          <hr />
+          
+          <ul id="vidSelector">
+            <!-- VIDEO 1 -->
+            <li class="vod">
+              <a href="https://youtu.be/AkgTUqIX1mU">
+                <div class="vidDuration">3:09:11</div>
+                <img src="https://i.ytimg.com/vi/AkgTUqIX1mU/mqdefault.jpg" />
+              </a>
+            </li>
+            <!-- VIDEO 2 -->
+            <li class="vod">
+                <a href="https://youtu.be/Gt5Fp_t4hyk">
+                  <div class="vidDuration">3:02:47</div>
+                  <img src="https://i.ytimg.com/vi/Gt5Fp_t4hyk/mqdefault.jpg" />
+                </a>
+            </li>
+            <!-- VIDEO 3 -->
+            <li class="vod">
+                <a href="https://youtu.be/K8nSp9mnzf4">
+                  <div class="vidDuration">3:45:31</div>
+                  <img src="https://i.ytimg.com/vi/K8nSp9mnzf4/mqdefault.jpg" />
+                </a>
+            </li>
+            <!-- VIDEO 4 -->
+            <li class="vod">
+                <a href="https://youtu.be/k1kDV6Sj-zs">
+                  <div class="vidDuration">2:53:52</div>
+                  <img src="https://i.ytimg.com/vi/k1kDV6Sj-zs/mqdefault.jpg" />
+                </a>
+            </li>
+            <!-- VIDEO 5 -->
+            <li class="vod">
+                <a href="https://youtu.be/5NHz7MU11as">
+                    <div class="vidDuration">4:47:52</div>
+                    <img src="https://i.ytimg.com/vi/5NHz7MU11as/mqdefault.jpg" />
+                </a>
+            </li>
+            <!-- VIDEO 6 -->
+            <li class="vod">
+                <a href="https://youtu.be/DfrS4Zd_7Mw">
+                    <div class="vidDuration">58:01</div>
+                    <img src="https://i.ytimg.com/vi/DfrS4Zd_7Mw/mqdefault.jpg" />
+                </a>
+            </li>
+        </ul>
+        </div>
+        <script src="../scripts/common.js" onload="getVidCount()"></script>
+      </body>
+</html>
