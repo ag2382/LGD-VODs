@@ -5,58 +5,30 @@
 /* THEMES */
 /* Users can toggle between light and dark modes, just like on the Switch */
 
+
+html, body
+{
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: sans-serif;
-}
-
-:root {
-    /* light theme */
-    --primary-color-bg: #e9ece9;
-    --primary-color-text: black;
-}
-
-.dark-mode {
-    --primary-color-bg: #2d2d2d;
-    --primary-color-text: white;
-}
-
-/* Switch background to override body */
-.background {
-    width: 100%;
-    height: 100vh;
-    background-color: var(--primary-color-bg);
-    position: relative;
-}
-
-/* MAKE TWO CLASSES FOR BOTH THEMES */
-
-/* .dark-mode {
     background-color: #2d2d2d;
-    color: white;
 }
-
-.light-mode {
-    background-color: #e9ece9;
-    color: black;
-} */
 
 /* page header format */
 header > h1, header > h2#currTime, header > h2#vidCount {
-    color: var(--primary-color-text);
-}
-
-header > h2#currTime, header > h2#vidCount {
-    float: right;
-    margin: 30px 70px 0px 0px;
-    position: relative;
-    top: 10px;
-}
-
-.button {
-    background-color: black;
     color: white;
-    font-size: 16;
-    margin: 30px 0px;
-    border-radius: 8px;
-    padding: 5px 10px 5px 10px;
+}
+
+/* video player format */
+#vidHeader > h1#title {
+    color: white;
+    font-size: 1.6em;
+}
+
+#vidHeader > p#date {
+    color: #bfbfbf;
+    font-size: 0.9em;
 }
