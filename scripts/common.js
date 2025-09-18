@@ -32,6 +32,11 @@ function getVidCount()
     document.getElementById("vidCount").innerHTML = str;
 }
 
+// HELLO WORLD
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Hello World!";
+}
+
 // TEST //
 
 // function myFunction() {
